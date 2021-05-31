@@ -8,7 +8,7 @@ $ open https://cmake.org/
 
 ## Tasks
 
-- [ ] 1. Создать публичный репозиторий с названием **lab03** на сервисе **GitHub**
+- [ ] 1. Создать публичный репозиторий с названием **lab3timp** на сервисе **GitHub**
 - [ ] 2. Ознакомиться со ссылками учебного материала
 - [ ] 3. Выполнить инструкцию учебного материала
 - [ ] 4. Составить отчет и отправить ссылку личным сообщением в **Slack**
@@ -20,16 +20,16 @@ $ export GITHUB_USERNAME=<имя_пользователя>
 ```
 
 ```sh
-$ cd ${GITHUB_USERNAME}/workspace
+$ cd $lozchkavarene/workspace
 $ pushd .
 $ source scripts/activate
 ```
 
 ```sh
-$ git clone https://github.com/${GITHUB_USERNAME}/lab02.git projects/lab03
-$ cd projects/lab03
+$ git clone https://github.com/$lozchkavarene/lab2timp.git projects/lab3timp
+$ cd projects/lab3timp
 $ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab03.git
+$ git remote add origin https://github.com/$lozchkavarene/lab3timp.git
 ```
 
 ```sh
@@ -147,10 +147,10 @@ $ git push origin master
 ```sh
 $ popd
 $ export LAB_NUMBER=03
-$ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
-$ mkdir reports/lab${LAB_NUMBER}
-$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md
-$ cd reports/lab${LAB_NUMBER}
+$ git clone https://github.com/tp-labs/lab$3 tasks/lab${LAB_NUMBER}
+$ mkdir reports/lab$3
+$ cp tasks/lab$3/README.md reports/lab${LAB_NUMBER}/REPORT.md
+$ cd reports/lab$3
 $ edit REPORT.md
 $ gist REPORT.md
 ```
